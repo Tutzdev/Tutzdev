@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 56" width="900" height="56" role="img" aria-label="COMO EU ESCREVO CÓDIGO">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A6FF1A" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#A6FF1A" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="face"><circle cx="28" cy="28" r="15"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: 'Courier New', Consolas, 'Liberation Mono', monospace; }
+    .blink { animation: blink 1.1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect x="0.5" y="0.5" width="899" height="55" rx="10" fill="#070B07" stroke="#A6FF1A" stroke-opacity="0.28"/>
+  <circle cx="28" cy="28" r="21" fill="#0D140D" stroke="#4A544A" stroke-width="4"/>
+  <circle cx="28" cy="28" r="15" fill="#040704"/>
+  <path clip-path="url(#face)" d="M8 10 H48 L32 28 L48 46 H8 L24 28 Z" fill="#A6FF1A"/>
+  <text x="62" y="35" font-size="15" fill="#5E7F4C">02 //</text>
+  <text x="120" y="36" font-size="21" font-weight="700" letter-spacing="4" fill="#A6FF1A">COMO EU ESCREVO CÓDIGO</text>
+  <rect x="513" y="27" width="247" height="2" fill="url(#fade)"/>
+  <text x="866" y="34" font-size="13" fill="#5E7F4C" text-anchor="end">how_i_code<tspan class="blink" fill="#A6FF1A">_</tspan></text>
+</svg>
